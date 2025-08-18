@@ -1,7 +1,7 @@
 # Force GitHub to detect Flutter/Dart as the main language
 *.dart linguist-detectable=true
 
-# Ignore platform-specific/native code
+# Ignore native/platform-specific files
 *.cpp linguist-detectable=false
 *.h linguist-detectable=false
 *.java linguist-detectable=false
@@ -11,8 +11,10 @@
 *.swift linguist-detectable=false
 *.c linguist-detectable=false
 *.cc linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
 
-# Ignore generated files
+# Ignore generated platform folders
 android/** linguist-vendored
 ios/** linguist-vendored
 windows/** linguist-vendored
