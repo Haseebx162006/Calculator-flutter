@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Force GitHub to detect Flutter/Dart as the main language
+*.dart linguist-detectable=true
+
+# Ignore platform-specific/native code
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+*.m linguist-detectable=false
+*.mm linguist-detectable=false
+*.swift linguist-detectable=false
+*.c linguist-detectable=false
+*.cc linguist-detectable=false
+
+# Ignore generated files
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
