@@ -14,10 +14,6 @@ It supports basic arithmetic operations, percentage calculation, and toggling po
 ✅ Error handling for invalid expressions
 ✅ Responsive, modern UI with Flutter widgets
 
-🖼️ Screenshots
-
-(Add your app screenshots here)
-
 🚀 Getting Started
 1. Clone the repo
 git clone https://github.com/your-username/flutter_calculator.git
